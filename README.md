@@ -15,7 +15,7 @@ Showcasing my skills and projects in the world of web development.
 Welcome to my personal portfolio website! This project serves as a central hub where I display my web development skills, showcase my projects, and share a bit about myself.
 
 ## Demo
-You can access the live demo of the portfolio [[here](https://nageshkharat.github.io/PersonalPortfolio.github.io](https://nageshkharat.github.io/Portfolio.app/)).
+You can access the live demo of the portfolio [[here](https://nageshkharat.github.io/PersonalPortfolio.github.io](https://nageshkharat.github.io/Portfolio.app/))]
 
 ![Portfolio Demo](demo.gif)
 
