@@ -10,6 +10,7 @@
     --box-shadow5:.2rem .5rem .5rem rgb(46, 19, 53),
                 -.2rem -0.2rem .5rem rgb(240, 236, 251);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -30,13 +31,14 @@ html{
     background: rgb(5, 4, 5);
     color:#ddd;
 }
-/* html::-webkit-scrollbar-track{
+::-webkit-scrollbar-track{
     background:#222;
 }
 
-html::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
     background:var(--yellow);
-} */
+}
+
 body{
     /* background:linear-gradient(#d8d8d8,#dddbdb) ; */
     /* background:linear-gradient(#ece9e9,#c9c7c7) ; */
@@ -63,7 +65,7 @@ header{
     display: flex;
     align-items: center;
     /* background: #ddd; */
-    background:rgb(224, 223, 223);
+    background:rgb(21, 4, 33);
     flex-flow: column;
     text-align: center;
     justify-content: center;
@@ -80,15 +82,16 @@ header .user img{
 }
 header .user .name{
     font-size: 3rem;
-    color: rgb(46, 19, 53);
+    color: rgb(222, 176, 233);
     
 }
 header .user .post{
     font-size: 1.5rem;
-    color: rgb(46, 19, 53);
+    color: rgb(205, 180, 211);
     padding-top: 0.5rem;
     font-weight: bold;
 }
+
 header .navbar{
     width: 80%;
     /* width:100%; needed if any problem  */
@@ -101,7 +104,7 @@ header .navbar ul li a{
     display: block;
     padding: 0.9rem;
     margin: 1.5rem 0;
-    background: #ece9e9;
+    background: white;
     color:black;
     font-size: 1.7rem;
     border-radius: 5rem;
@@ -787,3 +790,5 @@ header .navbar ul li a:hover{
         padding-bottom: 0;
     }
 }
+
+
