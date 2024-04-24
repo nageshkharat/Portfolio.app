@@ -65,7 +65,8 @@ header{
     display: flex;
     align-items: center;
     /* background: #ddd; */
-    background:rgb(21, 4, 33);
+/*     background:rgb(21, 4, 33); */
+    background: black;
     flex-flow: column;
     text-align: center;
     justify-content: center;
@@ -93,6 +94,10 @@ header .user .post{
 }
 
 header .navbar{
+    background-image: url(./fav.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
     /* width:100%; needed if any problem  */
 }
