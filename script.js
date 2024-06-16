@@ -1,4 +1,5 @@
 var type = new Typed('.typing-text', {
+    
     strings: ['a Full Stack Developer', 'an Aspiring Software Engineer', 'a Google DSC Lead', 'a Open Source Contributor'],
     typeSpeed: 120,
     loop: true
