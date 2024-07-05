@@ -270,10 +270,10 @@ header .navbar ul li a:hover{
     /* it means 5rem margin from left and right */
 }
 .about .row{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 1rem 0;
 }
 .about .row .info{
@@ -320,7 +320,7 @@ header .navbar ul li a:hover{
 
 /* Education Section strats */
 .education .box-container{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -525,7 +525,7 @@ header .navbar ul li a:hover{
 }
 @keyframes cpp{
     100%{
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -535,7 +535,7 @@ header .navbar ul li a:hover{
 }
 @keyframes dsa{
     100%{
-        width: 60%;
+        width: 50%;
     }
 }
 .skills .row .progress .java .anim{
@@ -544,7 +544,7 @@ header .navbar ul li a:hover{
 }
 @keyframes java{
     100%{
-        width: 50%;
+        width: 40%;
     }
 }
 .skills .row .progress .python .anim{
@@ -553,7 +553,7 @@ header .navbar ul li a:hover{
 }
 @keyframes python{
     100%{
-        width: 50%;
+        width: 40%;
     }
 }
 .skills .row .progress .html .anim{
@@ -562,7 +562,7 @@ header .navbar ul li a:hover{
 }
 @keyframes html{
     100%{
-        width: 90%;
+        width: 70%;
     }
 }
 .skills .row .progress .nodejs .anim{
@@ -571,7 +571,7 @@ header .navbar ul li a:hover{
 }
 @keyframes MATLAB{
     100%{
-        width: 60%;
+        width: 40%;
     }
 }
 .skills .row .progress .javascript .anim{
@@ -580,7 +580,7 @@ header .navbar ul li a:hover{
 }
 @keyframes javascript{
     100%{
-        width: 40%;
+        width: 60%;
     }
 }
 .skills .row .progress .sql .anim{
@@ -589,7 +589,7 @@ header .navbar ul li a:hover{
 }
 @keyframes sql{
     100%{
-        width: 40%;
+        width: 30%;
     }
 }
 .skills .row .progress .reactjs .anim{
@@ -607,7 +607,7 @@ header .navbar ul li a:hover{
 }
 @keyframes AI{
     100%{
-        width: 40%;
+        width: 20%;
     }
 }
 /* skills section ends */
@@ -624,7 +624,7 @@ header .navbar ul li a:hover{
 .projects .box-container .box{
    display: flex;
    height: 20rem;
-   width: 23rem;
+   width: 40rem;
    box-shadow: var(--box-shadow2);
    border-radius: 1rem;
    margin: 1.6rem;
@@ -726,7 +726,7 @@ header .navbar ul li a:hover{
     font-size: 1.8rem;
     text-align: center;
     margin-top: 1rem;
-    padding: 2.5rem 1rem;
+    padding: 1rem 1rem;
     border-top: 1.5px solid purple;
     padding-right: 3rem;
     padding-left: 3rem;
@@ -801,5 +801,7 @@ header .navbar ul li a:hover{
         padding-bottom: 0;
     }
 }
+
+
 
 
