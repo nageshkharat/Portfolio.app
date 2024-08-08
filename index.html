@@ -24,8 +24,8 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a style="color: black;"  href="#projects">Projects</a></li>
-                <li><a style="color: black;"  href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contacts">Contact</a></li>
@@ -84,13 +84,13 @@
                     </p>
                 </div> -->
                 <div class="box" data-aos="slide-right">
-                    <span>100+</span>
+                    <span>150+</span>
                     <p></p>
                     <a class="know" href="https://leetcode.com/Nagesh_Kharat/"><button class="btn">Leetcode<i class="fas fa-user"></p></i></button></a>
                     </p>
                 </div>
                 <div class="box" data-aos="slide-right">
-                    <span>100+</span>
+                    <span>120+</span>
                     <p></p>
                     <a class="know" href="https://auth.geeksforgeeks.org/user/kharatnawsiy"><button class="btn">GFG<i class="fas fa-user"></p></i></button></a>
                     </p>
@@ -121,7 +121,7 @@
                 <i class="fas fa-graduation-cap"></i>
                 <span>2021-2025</span>
                 <h3>B. Tech. - Electronics & Tele. Engineering</h3>
-                <h4>Grade: 6.81 CGPA</h4>
+                <h4>Grade: 7 CGPA</h4>
                 <h4>Year:3rd Year</h4>
                 <h4>MGM's College of Engineering, Nanded</h4>
             </div>
@@ -389,6 +389,23 @@
         </div>
         
     </section>
+        <!-- Chatbot Toggle Button -->
+        <div id="chatbot-toggle" onclick="toggleChatbot()"></div>
+
+        <!-- Chatbot UI -->
+        <div id="chatbot-container" class="closed">
+            <div id="chatbot-header">
+                <h3>Ask Me Anything</h3>
+                <button id="close-btn" onclick="toggleChatbot()">✖️</button>
+            </div>
+            <div id="chatbot-messages">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div id="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
     
     <!-- contacts section ends -->
     <a href="#home" >
