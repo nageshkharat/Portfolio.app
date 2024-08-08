@@ -99,7 +99,7 @@ var type = new Typed('.typing-text', {
     input = input.toLowerCase();
 
     // Personal Information
-    if (input.includes('who are you') || input.includes('can you tell me about yourself') || input.includes('introduce yourself')) {
+    if (input.includes('who is nagesh kharat?') || input.includes('who are you') || input.includes('can you tell me about yourself') || input.includes('introduce yourself')) {
         return 'I am Nagesh Kharat, a final-year student specializing in web development and software engineering. I am passionate about creating innovative solutions and enhancing user experiences.';
     }
     if (input.includes('contact') || input.includes('email') || input.includes('how can i contact you') || input.includes('what is your email')) {
@@ -187,14 +187,20 @@ var type = new Typed('.typing-text', {
     if (input.includes('thank you') || input.includes('thanks') || input.includes('thank you') || input.includes('thanks')) {
         return 'You\'re welcome! If you have any more questions, feel free to ask.';
     }
-    if (input.includes('bye') || input.includes('goodbye') ||input.includes('bye') || input.includes('goodbye')) {
+    if (input.includes('bye') || input.includes('goodbye')) {
         return 'Goodbye! Have a great day!';
     }
-    if (input.includes('Thank You') || input.includes('Great') ||input.includes('Amazing') || input.includes('Looks great') || input.includes('ok') || input.includes('ohk')) {
+    if (input.includes('great') || input.includes('amazing') || input.includes('Looks great') || input.includes('ok') || input.includes('ohk')) {
       return 'Thank You! Do you have any other questions for me? I will be happy to answer your questions!';
   }
-  if (input.includes('How Are You') || input.includes('What about you') ||input.includes('how about you') || input.includes('are you ok') || input.includes('ok') || input.includes('ohk')) {
+  if (input.includes('how are you') || input.includes('what about you') || input.includes('how about you') || input.includes('are you ok') || input.includes('ok') || input.includes('ohk')) {
     return 'I am good! What about You?';
+  }
+  if (input.includes('i am good too') || input.includes('good') || input.includes('i am fine') || input.includes('i am ok') || input.includes('fine') || input.includes('feeling good')) {
+    return 'Nice to hear! Do you have any questions for me?';
+  }
+  if (input.includes('do you have gf') || input.includes('gf') || input.includes('are you in relationship') || input.includes('do you have girlfriend') || input.includes('any gf') || input.includes('are you in love with someone')) {
+    return 'Not really! But, i am in love with my career. Yes, I am not in relationship yet. Do you have any other question? Feel free to ask!';
   }
 
     return 'I\'m sorry, I didn\'t understand that. Can you please rephrase or ask something else?';
